@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* <header> styles */
+body {
+    color: #493188;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  header {
+    padding: 20px 35px;
+    background-color: lightskyblue;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 90px;
+    color: #493188;
+    margin: 0;
+    display: inline;
+  }
+    
+  header a {
+    text-decoration: none;
+    color: #493188;
+  }
+  
+    /* nav */
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 18px;
+  }
+  
+  /* Hero Style Start */
+.hero {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/computer.jpg");
+    padding: 64.92%;
+    padding: 240px 35px;
+    margin: 0;
+}
+  /* Hero Style End */
+
+.column1 {
+    float:left;
+    width: 25%;
+    padding: 10px;
+    height: 150px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.column2 {
+    float:right;
+    width: 75%;
+    padding: 10px;
+    height: 150px;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.link {
+    font-size: 40px;
+}
+  
